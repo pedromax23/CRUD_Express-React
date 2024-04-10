@@ -1,0 +1,48 @@
+.contenedor__libro {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contenedor__libro p {
+    padding: 5px;
+}
+
+.nombre {
+    font-size: 25px;
+}
+
+.genero {
+    font-size: 20px;
+}
+
+.contenedor__libro img {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button {
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 45%;
+    font-size: 20px;
+    margin: 5px 0;
+    text-align: center;
+}
+.botones button {
+    background-color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 45%;
+    font-size: 20px;
+    margin: 5px 0;
+    cursor: pointer;
+}

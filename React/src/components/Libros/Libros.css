@@ -1,0 +1,25 @@
+.div__Titilo_Boton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.boton__crearLibro {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    transition: all 0.3s;
+    padding: 0px;
+    border-radius: 5px;
+}
+
+.boton__crearLibro:hover {
+    background-color: rgb(187, 187, 187);
+}
+
+.contenedor__libros {
+    display: flex;
+    width: 90vw;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
